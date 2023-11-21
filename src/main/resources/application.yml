@@ -18,3 +18,11 @@ spring:
     hibernate:
       ddl-auto: update
     open-in-view: false
+  data:
+    web:
+      pageable:
+        page-parameter: p
+        size-parameter: limit
+
+  
+        

@@ -1,0 +1,4 @@
+alter session set "_ORACLE_SCRIPT" = true;
+CREATE USER dbexamen IDENTIFIED BY "1234567";
+GRANT ALL PRIVILEGES TO dbexamen;
+GRANT UNLIMITED TABLESPACE TO dbexamen;
